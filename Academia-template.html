@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: url(./images/girlwithbook-3.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+        font-family: Arial;
+    }
+
+    .head {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+        color: white;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        color: white;
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 25px;
+    }
+
+    nav span {
+        padding: 20px;
+    }
+
+    .home {
+        color: #1eb2a6;
+    }
+
+
+
+    .certificate {
+        background-color: #1eb2a6;
+
+
+    }
+
+
+
+    .title {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Arial;
+    }
+
+    .title:hover {
+        color: #1eb2a6;
+    }
+
+    .sub-title {
+        font-size: 12px;
+
+    }
+
+    .bi-clock,
+    .bi-telephone {
+        font-size: 35px;
+
+    }
+
+    td {
+        padding: 5px;
+    }
+
+    .social-icons {
+        margin-top: 22px;
+    }
+
+
+
+    .bi-facebook,
+    .bi-twitter,
+    .bi-instagram,
+    .bi-dribbble {
+        font-size: 16px;
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 11px;
+        border-radius: 50%;
+        color: #1eb2a6;
+
+    }
+
+    .bi-facebook:hover {
+        background-color: #1eb2a6;
+        color: white;
+    }
+
+    .bi-twitter:hover {
+        background-color: #1eb2a6;
+        color: white;
+    }
+
+    .bi-instagram:hover {
+        background-color: #1eb2a6;
+        color: white;
+    }
+
+    .bi-dribbble:hover {
+        background-color: #1eb2a6;
+        color: white;
+    }
+
+    .content {
+        margin-top: 150px;
+        margin-left: 80px;
+        color: white;
+
+    }
+
+    .content-title {
+        font-size: 15px;
+        line-height: 1.5;
+        color: rgba(255, 255, 255, 0.7);
+        text-transform: uppercase;
+    }
+
+    .content-subtitle {
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    .content p {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        height: 1000px;
+        background-color: rgb(249, 245, 245);
+    }
+
+    .left-panel {
+        background-image: url(./images/girlwithlaptop.jpg);
+        background-size: cover;
+
+    }
+
+    .right-panel {
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .right-panel div {
+        margin-top: 30px;
+    }
+
+    .panel-title {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #1eb2a6;
+        font-weight: 600;
+
+    }
+
+    .panel-subtitle {
+        font-size: 40px;
+        text-transform: capitalize;
+    }
+
+
+
+    .cards div {
+        line-height: 1.5;
+    }
+
+    .bi-book,
+    .bi-receipt-cutoff,
+    .bi-person {
+        font-size: 60px;
+        color: #1eb2a6;
+        background-color: white;
+
+    }
+
+    .cards:hover {
+        background-color: #1eb2a6;
+        color: white;
+        font-weight: 600;
+
+    }
+
+
+
+    main {
+        background-image: url(./images/women-meaurement.jpg);
+        background-size: cover;
+        height: 300px;
+
+    }
+
+    .shade {
+        background-color: rgb(0, 0, 0, 0.5);
+        height: 60vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 3fr 9fr;
+        width: 500px;
+        height: 200px;
+        background-color: white;
+        padding: 10px;
+
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: 3fr 9fr;
+        color: white;
+
+    }
+
+    .bi-person-fill,
+    .bi-person-check-fill,
+    .bi-calendar-check-fill,
+    .bi-lightbulb-fill {
+        font-size: 55px;
+        padding: 25px;
+        color: rgba(255, 255, 255, 0.9);
+
+    }
+
+    .card-icon {
+        margin-top: 15px;
+    }
+
+    .num {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .card-title {
+        color: rgba(255, 255, 255, 0.9);
+    }
+</style>
+
+<body>
+    <header>
+        <div class="head">
+            <div>
+                <div class="title">ACADEMIA</div>
+                <div class="sub-title">ONLINE EDUCATION & LEARNING</div>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td><span class="bi bi-clock"></span></td>
+                        <td><span>Moday-friday</span><br>
+                            <strong>8:00AM-8:00PM</strong>
+                        </td>
+
+                    </tr>
+                </table>
+
+            </div>
+
+            <div>
+                <table>
+                    <tr>
+                        <td><span class="bi bi-telephone"></span></td>
+                        <td><span>call us</span><br>
+                            <strong>+2 392 3929 210</strong>
+                        </td>
+
+                    </tr>
+                </table>
+
+            </div>
+            <div class="social-icons">
+                <span class="bi bi-facebook"></span>
+                <span class="bi bi-twitter"></span>
+                <span class="bi bi-instagram"></span>
+                <span class="bi bi-dribbble"></span>
+            </div>
+
+
+
+        </div>
+
+        <nav>
+            <div>
+                <span class="home">Home</span>
+                <span>All Courses</span>
+                <span>About</span>
+                <span>Team</span>
+                <span>Pricing </span>
+                <span>Jornol</span>
+                <span>Contact</span>
+            </div>
+            <div>
+                <span class="certificate">GET CERTIFICATE</span>
+            </div>
+        </nav>
+
+        <div class="content">
+            <div class="content-title">Welcome to Academia</div>
+            <div class="content-subtitle">Best Online Education <br> Expertise</div>
+            <p>Far far away, behind the word mountains, far from the countries <br> Vokalia and Consonantia, there live
+                the
+                blind texts.</p>
+        </div>
+    </header>
+    <section>
+        <div class="left-panel">
+
+        </div>
+
+
+        <div class="right-panel">
+            <div>
+                <span class="panel-title">learn anything</span>
+            </div>
+            <div class="panel-subtitle">benefits about online learning expertise</div>
+            <div>
+                <div>
+                    <div class="cards">
+                        <div>
+                            <div> <span class="bi bi-book"></span></div>
+                        </div>
+                        <div>
+                            <h2>Online Courses</h2>
+
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="cards">
+                        <div>
+                            <div> <span class="bi bi-receipt-cutoff"></span></div>
+                        </div>
+                        <div>
+                            <h2>Earn A Certificate</h2>
+
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="cards">
+                        <div>
+                            <div> <span class="bi bi-person"></span></div>
+                        </div>
+                        <div>
+                            <h2>Learn with Expert</h2>
+
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <main>
+
+        <div class="shade">
+            <div class="card">
+                <div class="card-icon">
+                    <span class="bi bi-person-fill"></span>
+                </div>
+                <div>
+                    <div class="num">3,000</div>
+                    <span class="card-title">SUCCESS STORIES</span>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <span class="bi bi-person-check-fill"></span>
+                </div>
+                <div>
+                    <div class="num">320</div>
+                    <span class="card-title">TRUSTED TUTURS</span>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <span class="bi bi-calendar-check-fill"></span>
+                </div>
+                <div>
+                    <div class="num">1,000</div>
+                    <span class="card-title">SHEDULES</span>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <span class="bi bi-lightbulb-fill"></span>
+                </div>
+                <div>
+                    <div class="num">587</div>
+                    <span class="card-title">COURSE</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+
+</body>
+
+</html>
